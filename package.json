@@ -1,0 +1,19 @@
+{
+  "name": "pipeline-aggregate_mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "list:ids:skip": "node get-missing-ids-with-skip-and-limit.js",
+    "list:ids:cursor": "node get-missing-ids-with-cursor.js",
+    "create:test:dough": "node create-test-dough.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.4",
+    "mongoose": "^8.1.2"
+  }
+}
